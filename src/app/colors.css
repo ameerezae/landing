@@ -1,0 +1,16 @@
+:root {
+    --background: #000000;
+    --foreground: #FFFFFF;
+    --primary: #FD4141;
+    --primary-700: #C32E2E;
+    --surface-1: #0E1318;
+    --surface-2: #353434;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
+}
