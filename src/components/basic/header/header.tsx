@@ -1,30 +1,8 @@
-import { HeaderLink } from '@/components/basic/header/models';
 import Image from 'next/image';
 import person from '@/icons/person.svg';
 import chevronRight from '@/icons/chevron-right.svg';
-
-const LINKS: HeaderLink[] = [
-  {
-    label: 'پخش زنده',
-    url: '#',
-  },
-  {
-    label: 'فیلم و سریال',
-    url: '#',
-  },
-  {
-    label: 'کودک',
-    url: '#',
-  },
-  {
-    label: 'ورزش',
-    url: '#',
-  },
-  {
-    label: 'آرشیو محتوایی',
-    url: '#',
-  },
-];
+import search from '@/icons/search.svg';
+import { LINKS } from '@/components/basic/header/constants';
 
 const Header = () => {
   return (
@@ -52,8 +30,11 @@ const Header = () => {
         ))}
       </nav>
 
-      <div className="hidden md:block">
-        <button className="text-sm hover:text-gray-400 text-white">ورود / ثبت نام</button>
+      <div className="hidden md:flex md:gap-5">
+        <div className="cursor-pointer">
+          <Image src={search} alt={'search'} width={20} height={20} />
+        </div>
+        <button className="text-sm hover:text-gray-400 cursor-pointer">ورود / ثبت نام</button>
       </div>
     </header>
   );
