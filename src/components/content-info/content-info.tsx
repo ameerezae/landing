@@ -24,8 +24,8 @@ const ContentInfo = ({
   return (
     <div className="relative w-full">
       <div className="relative w-full">
-        <div className="absolute w-full h-[50%] bottom-0 bg-gradient-to-b to-black/100"></div>
-        <div className="hidden md:block absolute w-[50%] h-full right-0 md:bg-gradient-to-r md:from-black/0 md:to-black/20"></div>
+        <div className="absolute w-full h-[50%] bottom-0 bg-gradient-to-b to-background/100"></div>
+        <div className="hidden md:block absolute w-[50%] h-full right-0 md:bg-gradient-to-r md:from-background/0 md:to-background/20"></div>
         <Image
           src={heroBackground}
           alt="Hannibal"
