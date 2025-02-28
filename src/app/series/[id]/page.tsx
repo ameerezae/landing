@@ -9,7 +9,7 @@ const SeriesPage = ({ params }: { params: Promise<{ category: string }> }) => {
   const [contentInfo, setContentInfo] = useState<IContentInfo | null>(null);
 
   useEffect(() => {
-    params.then(_value => setContentInfo(CONTENT_INFO));
+    params.then(() => setContentInfo(CONTENT_INFO));
   }, [params]);
 
   if (!contentInfo) {
