@@ -1,7 +1,7 @@
 'use client';
 import Image from 'next/image';
-import Button from '@/components/basic/button/button';
-import Tag from '@/components/basic/tag/tag';
+import Button from '@/library/button/button';
+import Tag from '@/library//tag/tag';
 import { IContentInfo } from '@/components/content-info/models';
 
 import play from '@/icons/play.svg';

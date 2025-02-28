@@ -1,4 +1,4 @@
-import { HeaderLink } from '@/components/basic/header/models';
+import { HeaderLink } from '@/components/header/models';
 
 export const LINKS: HeaderLink[] = [
   {

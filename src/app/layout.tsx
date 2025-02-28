@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-import Header from '@/components/basic/header/header';
+import Header from '@/components/header/header';
 import { BYekanFont } from '@/fonts/fonts';
 
 export const metadata: Metadata = {

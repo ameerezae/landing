@@ -2,7 +2,7 @@ import Image from 'next/image';
 import person from '@/icons/person.svg';
 import chevronRight from '@/icons/chevron-right.svg';
 import search from '@/icons/search.svg';
-import { LINKS } from '@/components/basic/header/constants';
+import { LINKS } from '@/components/header/constants';
 
 const Header = () => {
   return (
