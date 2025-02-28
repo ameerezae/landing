@@ -38,7 +38,7 @@ const ContentInfo = ({
         />
       </div>
 
-      <div className="absolute max-md:translate-y-[-10px] md:inset-0 w-full flex items-end md:items-center justify-center md:justify-start px-4 md:px-32 pb-8 md:pb-0">
+      <div className="max-md:translate-y-[-10px] md:absolute md:inset-0 w-full flex items-end md:items-center justify-center md:justify-start px-4 md:px-32 pb-8 md:pb-0">
         <div className="w-full relative space-y-4 md:space-y-6 text-center md:text-right">
           <Image src={cover} width={380} alt={'cover'} className="hidden md:block"></Image>
           <h1 className="text-sm md:text-lg font-bold">{title}</h1>

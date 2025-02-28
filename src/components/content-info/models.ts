@@ -1,3 +1,5 @@
+import { IEpisode } from '@/components/episode/models';
+
 export interface IContentInfo {
   title: string;
   description: string;
@@ -6,6 +8,7 @@ export interface IContentInfo {
   mobileHeroBackground: any;
   cover: any;
   channel: any;
+  episodes: IEpisode[];
 }
 
 export interface ContentInfoExtras {
