@@ -1,5 +1,5 @@
 'use client';
-import { ButtonProps } from '@/components/basic/button/models';
+import { ButtonProps } from '@/library/button/models';
 
 const buttonStyles = {
   primary: 'bg-primary hover:bg-primary-700 px-4 py-2',

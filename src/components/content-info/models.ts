@@ -8,6 +8,11 @@ export interface IContentInfo {
   mobileHeroBackground: any;
   cover: any;
   channel: any;
+  seasons: Season[];
+}
+
+export interface Season {
+  name: string;
   episodes: IEpisode[];
 }
 

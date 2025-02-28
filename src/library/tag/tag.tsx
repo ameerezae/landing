@@ -1,4 +1,4 @@
-import { TagProps } from '@/components/basic/tag/models';
+import { TagProps } from '@/library/tag/models';
 
 const Tag = ({ label, className }: TagProps) => {
   return (
