@@ -5,7 +5,7 @@ import thumbUpFilled from '@/icons/thumb-up-filled.svg';
 
 const Episode = ({ image, title, subtitle, season, episode, views, duration, likes }: IEpisode) => {
   return (
-    <div className="md:w-[280px] h-[225px] cursor-pointer">
+    <div className="md:w-[280px] h-[190px] md:h-[240px] cursor-pointer">
       <div className="hidden md:block p-3">
         <div className="relative">
           <Image src={image} alt={title} className="w-full" />
